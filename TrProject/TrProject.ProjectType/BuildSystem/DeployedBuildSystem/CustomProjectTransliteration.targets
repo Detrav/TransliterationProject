@@ -5,7 +5,9 @@
   <Import Project="$(MSBuildThisFileDirectory)\CustomProject.targets" />
 
   <ItemGroup>
-
+    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)Rules\text.xaml;">
+      <Context>File;BrowseObject</Context>
+    </PropertyPageSchema>
   </ItemGroup>
   <Target Name="Build">
     <Message Text="Check for existing folder $(OutputPath)"/>

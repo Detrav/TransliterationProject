@@ -4,9 +4,9 @@
     xmlns="http://schemas.microsoft.com/build/2009/properties">
 
     <ContentType
-        Name="Text"
-        DisplayName="Text file"
-        ItemType="None">
+	    Name="TextSourceFile" 
+	    DisplayName="Text source file" 
+	    ItemType="Text">
     </ContentType>
 
     <ContentType
@@ -26,19 +26,21 @@
         DisplayName="Cascading style sheet"
         ItemType="None">
     </ContentType>
-
     <ContentType
         Name="CSharpFile"
         DisplayName="C# file"
-        ItemType="None">
-    </ContentType>
-
+        ItemType="Compile"
+       />
+    <ItemType DisplayName="C# compiler" Name="Compile" />
+    <ItemType DisplayName="Embedded Resource" Name="EmbeddedResource" />
     <ItemType Name="None" DisplayName="Does not participate in build"/>
-
+    <ItemType DisplayName="Content" Name="Content"/>
+    <ItemType Name="TextCompile" DisplayName="Text source file"/>
+    
     <FileExtension Name=".asax" ContentType="Asax"/>
     <FileExtension Name=".asmx" ContentType="HTML"/>
     <FileExtension Name=".asp" ContentType="AspPage"/>
-    <FileExtension Name=".txt" ContentType="Text"/>
+    <FileExtension Name=".txt" ContentType="TextSourceFile" />
     <FileExtension Name=".resx" ContentType="RESX"/>
     <FileExtension Name=".html" ContentType="HTML"/>
     <FileExtension Name=".htm" ContentType="HTML"/>
