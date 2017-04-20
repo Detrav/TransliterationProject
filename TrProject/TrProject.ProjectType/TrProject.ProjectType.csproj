@@ -186,9 +186,6 @@
     <None Include="BuildSystem\Rules\ProjectItemsSchema.xaml">
       <SubType>Designer</SubType>
     </None>
-    <None Include="BuildSystem\Rules\csharp.browseobject.xaml">
-      <SubType>Designer</SubType>
-    </None>
     <XamlPropertyRule Include="BuildSystem\Rules\general.xaml">
       <SubType>Designer</SubType>
     </XamlPropertyRule>
@@ -206,42 +203,6 @@
     </XamlPropertyRule>
     <XamlPropertyRule Include="BuildSystem\Rules\none.xaml">
       <RuleInjection>None</RuleInjection>
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\assemblyreference.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\comreference.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\projectreference.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\ResolvedAssemblyReference.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\ResolvedCOMReference.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\ResolvedProjectReference.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\resolvedsdkreference.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\scc.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\sdkreference.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\debugger_general.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\csharp.xaml">
-      <SubType>Designer</SubType>
-    </XamlPropertyRule>
-    <XamlPropertyRule Include="BuildSystem\Rules\EmbeddedResource.xaml">
       <SubType>Designer</SubType>
     </XamlPropertyRule>
   </ItemGroup>

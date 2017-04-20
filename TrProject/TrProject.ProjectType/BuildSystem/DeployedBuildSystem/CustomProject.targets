@@ -29,41 +29,14 @@
     <PropertyPageSchema Include="
                         $(MSBuildThisFileDirectory)Rules\ProjectItemsSchema.xaml;
                         "/>
-    <PropertyPageSchema Include="
-                        $(MSBuildThisFileDirectory)Rules\debugger_general.xaml;
-                        ">
-      <Context>Project</Context>
-    </PropertyPageSchema>
     <PropertyPageSchema Include="$(MSBuildThisFileDirectory)Rules\general_file.xaml">
       <Context>File</Context>
     </PropertyPageSchema>
-    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)Rules\scc.xaml">
-      <Context>Invisible</Context>
-    </PropertyPageSchema>
-
     <PropertyPageSchema Include="
                         $(MSBuildThisFileDirectory)Rules\folder.xaml;
                         $(MSBuildThisFileDirectory)Rules\none.xaml;
-                        $(MSBuildThisFileDirectory)Rules\EmbeddedResource.xaml;
                         ">
       <Context>File;BrowseObject</Context>
-    </PropertyPageSchema>
-    <PropertyPageSchema Include="
-                        $(MSBuildThisFileDirectory)Rules\assemblyreference.xaml;
-                        $(MSBuildThisFileDirectory)Rules\comreference.xaml;
-                        $(MSBuildThisFileDirectory)Rules\projectreference.xaml;
-                        $(MSBuildThisFileDirectory)Rules\sdkreference.xaml;
-                        ">
-      <Context>;BrowseObject</Context>
-    </PropertyPageSchema>
-
-    <PropertyPageSchema Include="
-                        $(MSBuildThisFileDirectory)Rules\ResolvedAssemblyReference.xaml;
-                        $(MSBuildThisFileDirectory)Rules\ResolvedCOMReference.xaml;
-                        $(MSBuildThisFileDirectory)Rules\ResolvedProjectReference.xaml;
-                        $(MSBuildThisFileDirectory)Rules\ResolvedSDKReference.xaml;
-                        ">
-      <Context>ProjectSubscriptionService;BrowseObject</Context>
     </PropertyPageSchema>
 
     <PropertyPageSchema Include="$(MSBuildThisFileDirectory)Rules\general.browseobject.xaml">

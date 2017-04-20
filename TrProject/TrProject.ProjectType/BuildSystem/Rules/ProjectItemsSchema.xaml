@@ -30,13 +30,10 @@
     <ContentType
         Name="CSharpFile"
         DisplayName="C# file"
-        ItemType="Compile">
+        ItemType="None">
     </ContentType>
 
-    <ItemType Name="Compile" DisplayName="C# compiler"/>
-    <ItemType Name="EmbeddedResource" DisplayName="Embedded Resource"/>
     <ItemType Name="None" DisplayName="Does not participate in build"/>
-    <ItemType Name="Content" DisplayName="Content" />
 
     <FileExtension Name=".asax" ContentType="Asax"/>
     <FileExtension Name=".asmx" ContentType="HTML"/>
