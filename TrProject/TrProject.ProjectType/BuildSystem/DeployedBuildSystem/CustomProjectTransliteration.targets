@@ -7,4 +7,16 @@
   <ItemGroup>
 
   </ItemGroup>
+  <Target Name="Build">
+    <Message Text="Check for existing folder $(OutputPath)"/>
+    <MakeDir Directories="$(OutputPath)"  Condition="!Exists('$(OutputPath)')" />
+    <Message Text="Start ping command:"/>
+    <Message Text="ping localhost > $(OutputPath)ping.txt"/>
+    <Exec Command="ping localhost > $(OutputPath)ping.txt"/>
+    <Message Text="Finish ping command:"/>
+  </Target>
+  <Target Name="Clean">
+    <RemoveDir Directories="$(OutputPath)" Condition="Exists('$(OutputPath)')"/>
+  </Target>
+
 </Project>
