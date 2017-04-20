@@ -9,53 +9,10 @@
 	    ItemType="Text">
     </ContentType>
 
-    <ContentType
-        Name="XML"
-        DisplayName="Xml file"
-        ItemType="None">
-    </ContentType>
-
-    <ContentType
-        Name="HTML"
-        DisplayName="Html file"
-        ItemType="None">
-    </ContentType>
-
-    <ContentType
-        Name="CSS"
-        DisplayName="Cascading style sheet"
-        ItemType="None">
-    </ContentType>
-    <ContentType
-        Name="CSharpFile"
-        DisplayName="C# file"
-        ItemType="Compile"
-       />
-    <ItemType DisplayName="C# compiler" Name="Compile" />
-    <ItemType DisplayName="Embedded Resource" Name="EmbeddedResource" />
     <ItemType Name="None" DisplayName="Does not participate in build"/>
     <ItemType DisplayName="Content" Name="Content"/>
     <ItemType Name="TextCompile" DisplayName="Text source file"/>
     
-    <FileExtension Name=".asax" ContentType="Asax"/>
-    <FileExtension Name=".asmx" ContentType="HTML"/>
-    <FileExtension Name=".asp" ContentType="AspPage"/>
-    <FileExtension Name=".txt" ContentType="TextSourceFile" />
-    <FileExtension Name=".resx" ContentType="RESX"/>
-    <FileExtension Name=".html" ContentType="HTML"/>
-    <FileExtension Name=".htm" ContentType="HTML"/>
-    <FileExtension Name=".css" ContentType="CSS"/>
-    <FileExtension Name=".bmp" ContentType="BMP"/>
-    <FileExtension Name=".ico" ContentType="ICO"/>
-    <FileExtension Name=".cur" ContentType="CUR"/>
-    <FileExtension Name=".vbS" ContentType="Script"/>
-    <FileExtension Name=".jS" ContentType="Script"/>
-    <FileExtension Name=".xml" ContentType="XML"/>
-    <FileExtension Name=".cs" ContentType="CSharpFile"/>
-    <FileExtension Name=".mht" ContentType="MHT"/>
-    <FileExtension Name=".manifest" ContentType="Manifest"/>
-    <FileExtension Name=".rdlc" ContentType="RDLC"/>
-    <FileExtension Name=".cd" ContentType="ClassDiagram"/>
-    <FileExtension Name=".licenses" ContentType="Licenses"/>
+    <FileExtension Name=".txt1" ContentType="TextSourceFile" />
 </ProjectSchemaDefinitions>
 

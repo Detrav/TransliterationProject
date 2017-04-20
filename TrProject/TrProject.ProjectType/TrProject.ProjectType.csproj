@@ -213,7 +213,6 @@
     </Page>
     <XamlPropertyRule Include="BuildSystem\Rules\text.xaml">
       <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </XamlPropertyRule>
   </ItemGroup>
   <ItemGroup>

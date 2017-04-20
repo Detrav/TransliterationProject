@@ -35,10 +35,10 @@
     <PropertyPageSchema Include="
                         $(MSBuildThisFileDirectory)Rules\folder.xaml;
                         $(MSBuildThisFileDirectory)Rules\none.xaml;
+                        $(MSBuildThisFileDirectory)Rules\text.xaml;
                         ">
       <Context>File;BrowseObject</Context>
     </PropertyPageSchema>
-
     <PropertyPageSchema Include="$(MSBuildThisFileDirectory)Rules\general.browseobject.xaml">
       <Context>BrowseObject</Context>
     </PropertyPageSchema>
